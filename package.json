@@ -2,12 +2,16 @@
   "name": "fp-peek",
   "version": "1.0.0",
   "description": "A debugging function for ramda",
-  "main": "lib/peek.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d lib",
+    "build": "babel src/peek.js -o index.js",
     "prepublish": "npm run build"
   },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "keywords": [
     "functional",
     "ramda",
