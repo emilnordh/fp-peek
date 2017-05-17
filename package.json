@@ -1,0 +1,24 @@
+{
+  "name": "fp-peek",
+  "version": "1.0.0",
+  "description": "A debugging function for ramda",
+  "main": "lib/peek.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "functional",
+    "ramda",
+    "fp",
+    "debug"
+  ],
+  "author": "Emil Nordh <me@emilnordh.se>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1"
+  }
+}
